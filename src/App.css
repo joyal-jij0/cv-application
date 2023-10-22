@@ -1,0 +1,88 @@
+
+input{
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+.blue-box{
+    padding: 2%;
+}
+
+.blue-box:hover, .blue-box:focus{
+    border: #05bfdb solid;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+textarea{
+    border: none;
+    resize: none;
+    background-color: #f8f8f8;
+    border-radius: 2%;
+    padding: 2%;
+    width: 95%;
+    font-size: 1.2rem;
+}
+
+.blue{
+    color: #05bfdb;
+    font-weight: bolder;
+    border-bottom: #05bfdb solid;
+    font-size: 2.5rem;
+    margin-bottom: 2%;
+}
+
+.blue-button{
+    background-color: #05bfdb;
+    border: #05bfdb;
+    color: #f8f8f8;
+    margin-top: 2%;
+    padding: 1.5%;
+    border-radius: 8px;
+    font-size: 1.3rem;
+}
+
+.border{
+    border: 1px #ccc solid;
+}
+
+.job{
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 100%;
+}
+
+.comp{
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+.delete{
+    width: 30%;
+}
+.red{
+    background-color: #ff6961;
+    color: #f8f8f8;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    border: none;
+    padding: 1%;
+    border-radius: 8px;
+}
+
+.cv{
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    box-sizing: border-box;
+    margin: 0 0 0 25%;
+    padding: 2%;
+    width: 50%;
+}

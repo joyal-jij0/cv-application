@@ -1,0 +1,13 @@
+.skill{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-button{
+    width: 7%;
+}
+.skill-red{
+    width: 100%;
+    display: initial;
+}
+

@@ -1,0 +1,36 @@
+/* Maintain your existing styles */
+.profile-img {
+    display: block;
+    width: 11vw;
+    height: 18vh;
+    /*align-self: flex-start;*/
+    background: url("/src/assets/profile-circle-svgrepo-com.svg") no-repeat;
+    background-size: contain;
+}
+
+.profile-img:hover{
+    background: url("/src/assets/upload-circle-svgrepo-com.svg") no-repeat;
+    background-size: contain;
+}
+
+.name {
+    font-size: 3rem;
+    font-weight: bolder;
+    width: 100%;
+}
+.role{
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 100%;
+}
+.banner{
+    display: flex;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"]{
+    appearance: textfield;
+}
